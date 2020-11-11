@@ -54,12 +54,8 @@ function draw() {
   rope4.display()
   rope5.display()
 
-  keyPressed();
+  
   drawSprites();
  
 }
-function keyPressed() { 
-	if (keyCode === UP_ARROW) 
-	{ Matter.Body.applyForce(bobobject1.body,bobobject1.body.position,{x:-100,y:-100}); } 
-} 
 
